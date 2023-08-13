@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif; /* Google Font: Poppins */
+    background-color: #f8f8f8;
+  }
+  
+  /* Typography */
+  h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif; /* Google Font: Montserrat */
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #444;
+  }
+  
+  /* Header Section */
+  .header {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+  }
+
+  .header p {
+    color: #fff
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Introduction Section */
+  .intro {
+    padding: 4rem 0;
+    text-align: center;
+  }
+
+  .intro-image img {
+    display: inline-block;
+  }s
+
+  .intro-text {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px; /* Adjust this value as needed */
+    min-width: 320px;
+    padding: 80px;
+  }
+  
+  .intro-text h2 {
+    margin-bottom: 10px;
+  }
+  
+  .intro-text p {
+    margin-bottom: 0;
+  }
+  
+  /* Projects Section */
+  .projects {
+    padding: 4rem 0;
+  }
+  
+  .project {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project h3 {
+    color: #2c3e50;
+  }
+  
+  .project p {
+    color: #555;
+  }
+  
+  .project a {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  /* Skills Section */
+  .skills {
+    padding: 4rem 0;
+    background-color: #f8f8f8;
+  }
+  
+  .skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .skills li {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  .contact a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #2c3e50;
+    color: #fff;
+  }
+
+  .footer p {
+    color: #fff;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+    }
+  
+    h3 {
+      font-size: 1.2rem;
+    }
+  }
